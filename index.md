@@ -1,2 +1,3 @@
-# cse15l-lab-reports
-My Lab Reports for CSE 15L
+# CSE 15L lab reports
+
+### Index of lab reports:
