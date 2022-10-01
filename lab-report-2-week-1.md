@@ -41,6 +41,6 @@ For this step start by using ssh-keygen, and then copy the public key to the rem
 
 Finally, if we want to edit `WhereAmI.java` and run it fast, we can do our scp and commands as a one-liner using semicolons. It looks like this:
 
-```bash
+```powershell
 scp .\WhereAmI.java cs15lfa22fg@ieng6.ucsd.edu:~; ssh cs15lfa22fg@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
