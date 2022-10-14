@@ -124,6 +124,7 @@ class SearchServer {
 </video>
 
 <details>
+
   <summary>See Screenshots</summary>
   <img src="./Lab-3-media/Screenshot1.GIF">
   <img src="./Lab-3-media/Screenshot2.GIF">
