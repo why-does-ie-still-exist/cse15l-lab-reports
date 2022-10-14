@@ -125,11 +125,10 @@ class SearchServer {
 
 <details>
   <summary>See Screenshots</summary>
-  
-  ![](./Lab-3-media/Screenshot1.GIF)
-  ![](./Lab-3-media/Screenshot2.GIF)
-  ![](./Lab-3-media/Screenshot3.GIF)
-  ![](./Lab-3-media/Screenshot4.GIF)
+  <img src="./Lab-3-media/Screenshot1.GIF">
+  <img src="./Lab-3-media/Screenshot2.GIF">
+  <img src="./Lab-3-media/Screenshot3.GIF">
+  <img src="./Lab-3-media/Screenshot4.GIF">
 </details>
 
 Here we have a demo video.
