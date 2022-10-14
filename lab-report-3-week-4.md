@@ -123,6 +123,15 @@ class SearchServer {
   <source src="./Lab-3-media/demovideo.mp4" type="video/mp4">
 </video>
 
+<details>
+  <summary>See Screenshots</summary>
+  
+  ![](./Lab-3-media/Screenshot1.GIF)
+  ![](./Lab-3-media/Screenshot2.GIF)
+  ![](./Lab-3-media/Screenshot3.GIF)
+  ![](./Lab-3-media/Screenshot4.GIF)
+</details>
+
 Here we have a demo video.
 
 First we open the webpage on localhost:80. This makes a call to `handleRequest`. This call it follows the branch when the path is `"/"`, so it serves a small search page.
