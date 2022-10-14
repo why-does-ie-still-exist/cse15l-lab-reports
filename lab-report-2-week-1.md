@@ -1,4 +1,4 @@
-# Week 1 Lab Report
+# Lab Report 2, Week 1
 
 1. [Installing VScode](#installing-vscode)
 2. [Remotely Connecting](#remotely-connecting)
