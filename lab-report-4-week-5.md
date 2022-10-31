@@ -22,7 +22,7 @@ If the file is longer than one screen length (chapter 1 is quite a long file) th
 
 **Example 2:**
 
-_(When zoomed in)_
+_(When zoomed out)_
 
 ```bash
 less -F ./plos/pmed.0020027.txt
@@ -34,7 +34,7 @@ However, if the file is shorter than one screen length, less just prints the con
 
 **Example 3:**
 
-_(When zoomed out)_
+_(When zoomed in)_
 
 ```bash
 less -F ./plos/pmed.0020027.txt
