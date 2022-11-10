@@ -2,6 +2,8 @@
 
 _Note to TA/Tutor reading this: I couldn't put the output in a code block because less is fullscreen and you can't copy highlights from searches._
 
+**_Edit for resubmit: clarified why the options are useful_**
+
 1. [Quit If One Screen](#quit-if-one-screen)
 2. [Patterns](#patterns)
 3. [Case Insensitive Patterns](#case-insensitive-patterns)
@@ -9,6 +11,8 @@ _Note to TA/Tutor reading this: I couldn't put the output in a code block becaus
 ## Quit If One Screen
 
 This section details the behavior of the `-F` or `--quit-if-one-screen` flag.
+
+This flag is useful when you have very short files. For instance, you may have a short shell script that you want to glance at, maybe to verify its contents, but taking over the whole screen and having to exit once done is annoying. This flag will allow the entire contents of (short) files to be printed quickly.
 
 **Example 1:**
 
@@ -48,6 +52,8 @@ Note that the command has different behavior depending on the zoom level in your
 
 This section details the behavior of the `-p` or `--pattern` flag.
 
+This flag is useful as it lets you jump to the first instance of a a pattern match. The `-p` has common behavior across many unix utilities so you can use existing patterns you've written with this option, and it's simpler than the builtin less command palette.
+
 **Example 1:**
 
 ```bash
@@ -81,6 +87,12 @@ You can get more fancy with the patterns, it utilizes the same pattern language 
 ## Case Insensitive Patterns
 
 This section details the behavior of the `-i`/`-I` flags, a.k.a. `--ignore-case`/`--IGNORE-CASE` flags, respectively.
+
+This flag is useful because when you're searching case isn't a big deal in many cases and only serves to complicate your pattern writing.
+
+ex. `-Ip "hello!"` vs `-p "[Hh][Ee][Ll]{2}[Oo]!"`
+
+In this example you have to account for both capitalizations of each character.
 
 **Example 1:**
 
