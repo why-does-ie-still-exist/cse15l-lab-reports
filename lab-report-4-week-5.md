@@ -52,7 +52,7 @@ Note that the command has different behavior depending on the zoom level in your
 
 This section details the behavior of the `-p` or `--pattern` flag.
 
-This flag is useful as it lets you jump to the first instance of a a pattern match. The `-p` pattern has common syntax across many unix utilities so you can use existing patterns you've written with this option, and it's simpler than the builtin less command palette.
+This flag is useful as it lets you find text in long files and jump to the first instance of a a pattern match. The `-p` pattern has common syntax across many unix utilities so you can use existing patterns you've written with this option, and it's simpler than the builtin less command palette.
 
 **Example 1:**
 
